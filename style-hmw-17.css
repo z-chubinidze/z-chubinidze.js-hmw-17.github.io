@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+@font-face{
+    font-family:'Inter-Regular';
+    src:url(Inter-Regular.ttf)
+}
+.container{
+    height: 100vh;
+}
+.mein-box{
+    padding: 31px 75px 150px 75px;
+    background: #2321AF;
+    border-radius: 61px;
+}
+.mein-box h2{
+    font-family:'Inter-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 72px;
+}
+.mein-box input{
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 100%;
+    padding: 25px 30px;
+    outline: 0;
+    border:0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    font-family:'Inter-Regular';
+    color: black;
+    margin-bottom: 41px;
+}
+.mein-box input::placeholder{
+    font-family:'Inter-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B0AAAA;
+}
+.mein-box p{
+    font-family:'Inter-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 71px;
+}
+.mein-box span{
+    font-family:'Inter-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    color: blac#FFF;
+    margin-left: 12px;
+}
+.mein-box button{
+    font-family:'Inter-Regular';
+    background: #299318;
+    width: 80%;
+    height: 55px;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.mein-box button:hover{
+    background: #299318 !important;
+    color: #FFFFFF !important;
+    border:none !important;
+}
